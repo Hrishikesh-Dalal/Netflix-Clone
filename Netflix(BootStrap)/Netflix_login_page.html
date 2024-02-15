@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Netflix | Login</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="netflix_login_page.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  </head>
+  <body>
+    
+    <!-- <h1>Hello, world!</h1> -->
+    <div class="main_banner">
+        <div class="main_logo">
+            <!-- <img src="logo.png" alt="Netflix_logo"> -->
+        </div>
+    </div>
+    <div class="login_section d-flex justify-content-center align-items-center">
+        <div class="login_box">
+            <h1 class="text-white mb-5">Sign In</h1>
+            <div class="mb-3 bkg email p-3 d-flex justify-content-center align-items-left flex-column">
+                <label for="exampleFormControlInput1" class="form-label text-white email_id m-0 ">Email or phone number</label>
+                <input type="email text-white" class="form-control bkg email_id_1" id="exampleFormControlInput1" style="border: none; background-color: #333333;color: wheat;" dplaceholder="name@example.com" >
+              </div>
+              <!-- <div class="mb-3"> -->
+                <div class="mb-3 br-3 bkg pass p-3 d-flex justify-content-center align-items-left flex-column">
+                    <label for="inputPassword5" class="form-label bkg border-0 p-0 text-white m-0" style="width: 100%; font-size: 11px;">Password</label>
+                    <input type="password" id="inputPassword5" class="form-control bkg border-0 p-0 password" aria-describedby="passwordHelpBlock" style="background-color: #333333;color: wheat;">
+                </div>
+              
+                <input type="submit" value="Submit" class="d-flex justify-content-center align-items-center submit_icon text-white border-0 p-0" href="Netflix_Landing.html" style="width: 100%;">
+                <div class="below_submit d-flex">
+                    <div class="chkbox d-flex justify-content-center align-items-center">
+                        <input type="checkbox" name="checkbox" id="" class="text-white" style="color: #fffafa;"> <p class="m-3" style="color: #b3b3b3;" >Remember Me</p>
+                    </div>
+                    <div class="need_help m-3 mr-0">
+                        <a href="" class="m-3">Need Help?</a>
+                    </div>
+                </div>
+                <div class="text_me text-white">
+                    <div class="big_text d-flex">
+                        <p style="color: #737373;">New to Netflix?</p>
+                        <a href="Landing.html" class="ml-3 text-white" style="margin-left: 3px; text-decoration: none;" >Sign Up now</a>
+                    </div>
+                    <div class="small_text ">
+                        <p style="font-size: 13px; color: #8c8c8c;">This page is protected by Google reCAPTCHA to ensure you're not a bot.<a href="" style="text-decoration: none;"> learn more.</a></p>
+                        
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+    <!-- Footer Start -->
+    <footer>
+        
+        <div class="main_foot footer">
+          
+          <div class="main_text text-white d-flex"style="font-size: 16px; margin-left: 10%; margin-top : 10px;">
+            <p style="margin-right: 4px;" color: #737373 !important;>Questions? </p>
+            <p class="text-danger">  Contact Us</p>
+          </div>
+          <div class="main_bullets " style="display: flex; justify-content: space-evenly;">
+            <div class="first_sec">              
+              <ul style="font-size: 13px; color: #737373 !important;" class="text-white">
+                <li><a href="">FAQ</a></li>
+                <li><a href="">Investor Relations</a></li>
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Speed Test</a></li>
+              </ul>
+            </div>
+
+            <div class="sedond_sec">              
+              <ul style="font-size: 13px; color: #737373 !important;" class="text-white">
+                <li><a href="">Help Centre</a></li>
+                <li><a href="">Jobs</a></li>
+                <li><a href="">Cookie Prefernces</a></li>
+                <li><a href="">Legal Notice</a></li>
+              </ul>
+            </div>
+
+            <div class="third_sec">              
+              <ul style="font-size: 13px; color: #737373 !important;" class="text-white">
+                <li><a href="">Account</a></li>
+                <li><a href="">Ways to Watch</a></li>
+                <li><a href="">Corporate Information</a></li>
+                <li><a href="">Only on Netflix</a></li>
+              </ul>
+            </div>
+
+            <div class="forth_sec">              
+              <ul style="font-size: 13px; color: #737373 !important;" class="text-white">
+                <li><a href="">Media Centre</a></li>
+                <li><a href="">Terms of Use</a></li>
+                <li><a href="">Contact Us</a></li>
+              </ul>
+            </div>
+
+          </div>
+          <div class="last_button">
+            
+                <div class="btn-group">
+                  <button type="button" class="btn dropdown-toggle text-white center" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: black; border: none; margin: 50px; border-radius: 0;">
+                    <i class="bi bi-globe2 pl-2"></i>
+                    English
+                  </button>
+                  <ul class="dropdown-menu" style="background-color: black; color: white;">
+                    <li><a><a class="dropdown-item" href="#">Arabic</a></a></li>
+                    <li><a><a class="dropdown-item" href="#">Hindi</a></a></li>
+                    <li><a><a class="dropdown-item" href="#">Gujarati</a></a></li>
+                    <li><a><hr class="dropdown-divider"></a></li>
+                    <li><a><a class="dropdown-item" href="#">Default</a></a></li>
+                  </ul>
+                </div>
+          </div>
+          
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
